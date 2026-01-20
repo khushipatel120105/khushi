@@ -6,20 +6,29 @@
 <title>Khushi Enterprise</title>
 <link rel="stylesheet" href="style.css">
 <script>
-function openWhatsApp() { window.open("https://wa.me/919727853294", "_blank"); }
-function openSMS() { window.open("sms:+919727853294"); }
+function openWhatsApp(){ window.open("https://wa.me/919727853294","_blank"); }
+function openSMS(){ window.open("sms:+919727853294"); }
 </script>
 </head>
 <body>
 
+<!-- STICKY NAVBAR -->
+<nav class="navbar">
+    <div class="nav-logo">Khushi Enterprise</div>
+    <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#video">Video</a></li>
+        <li><a href="#company">Info</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
 
-
-<!-- HOME PAGE -->
-<section id="home" class="hero-about page">
+<!-- HERO PAGE -->
+<section id="home" class="hero page">
     <div class="hero-left">
         <h1>Khushi Enterprise</h1>
         <p class="hero-tagline">We deliver excellence</p>
-        <p class="hero-description">Providing high-quality products and services with customer satisfaction as our priority.</p>
+        <p class="hero-description">Providing high-quality products and services with commitment to customer satisfaction.</p>
         <div class="hero-buttons">
             <a href="#contact" class="btn primary">Contact Us</a>
             <a href="#company" class="btn secondary">About Us</a>
@@ -44,14 +53,12 @@ function openSMS() { window.open("sms:+919727853294"); }
 
 <!-- COMPANY INFO PAGE -->
 <section id="company" class="company-info page">
-    <div class="company-center">
-        <h2>About Khushi Enterprise</h2>
-        <p>GST No: 22ABCDE1234F1Z5</p>
-        <p>Address: 123 Main Street, City, State, ZIP</p>
-        <p>We provide professional products and services with commitment to quality and customer satisfaction.</p>
-        <div class="map">
-            <iframe src="https://maps.google.com/maps?q=City%20State&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
-        </div>
+    <h2>About Khushi Enterprise</h2>
+    <p>GST No: 22ABCDE1234F1Z5</p>
+    <p>Address: 123 Main Street, City, State, ZIP</p>
+    <p>We provide professional products and services with commitment to quality and customer satisfaction.</p>
+    <div class="map">
+        <iframe src="https://maps.google.com/maps?q=City%20State&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
     </div>
     <div class="scroll-indicator black-arrow">
         <span>Scroll Down</span>
@@ -74,10 +81,13 @@ function openSMS() { window.open("sms:+919727853294"); }
     <div class="contact-right">
         <div class="scanner-frame">
             <img src="images/scanner.png" alt="Scanner" class="scanner-image">
-            <img src="images/QR code.jpeg" alt="QR Code" class="qr-code">
+            <img src="images/qr-code.png" alt="QR Code" class="qr-code">
         </div>
     </div>
 </section>
+
+<!-- FLOATING WHATSAPP BUTTON -->
+<a href="https://wa.me/919727853294" class="floating-whatsapp" target="_blank">💬</a>
 
 <!-- FOOTER -->
 <footer>Khushi Enterprise © 2026</footer>
