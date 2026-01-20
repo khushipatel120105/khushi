@@ -1,90 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Khushi Enterprise</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-    <script>
-        function openWhatsApp() { window.open("https://wa.me/919723453294", "_blank"); }
-        function openSMS() { window.open("sms:+919723453294", "_blank"); }
-    </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Khushi Enterprise</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <script>
+    function openWhatsApp() {
+      window.open("https://wa.me/919723453294", "_blank");
+    }
+    function openSMS() {
+      window.open("sms:+919723453294", "_blank");
+    }
+  </script>
 </head>
 <body>
 
 
 
-<!-- HOME PAGE -->
-<section class="hero page" id="home">
-    <div class="hero-left">
-        <h1>Khushi Enterprise</h1>
-        <img src="images/image.jpeg" alt="RR Cables" class="hero-image">
-        <p class="hero-contact">📞 +91-9723453294</p>
-        <div class="hero-buttons">
-            <a href="#contact" class="btn primary">Contact Us</a>
-            <a href="#company" class="btn secondary">About Us</a>
-        </div>
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="container">
+    <h1>Khushi Enterprise</h1>
+    <img src="images/image.jpeg" class="hero-image" alt="RR Cables">
+    <p class="hero-contact">📞 +91-9723453294</p>
+
+    <div class="hero-buttons">
+      <a href="#contact" class="btn primary">Contact Us</a>
+      <a href="#company" class="btn secondary">About Us</a>
     </div>
-    <div class="scroll-indicator">
-        <span>Scroll Down</span>
-        <div class="arrow"></div>
-    </div>
+  </div>
 </section>
 
-<!-- VIDEO PAGE -->
-<section class="video-page page" id="video">
-    <video autoplay muted loop class="hero-video">
-        <source src="video/video.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-    <div class="scroll-indicator white-indicator">
-        <span>Scroll Down</span>
-        <div class="arrow"></div>
-    </div>
+<!-- VIDEO -->
+<section class="video-section">
+  <video autoplay muted loop>
+    <source src="video/video.mp4" type="video/mp4">
+  </video>
 </section>
 
-<!-- COMPANY INFO PAGE -->
-<section class="company-info page" id="company">
-    <h2>Company Information</h2>
-    
-    <p>GST No: 24APAPP5187Q1Z8</p>
-    <p>Address: B/404,Empire Heights,Mangleshwar Mahadev Road,Ghodasar,Ahmedabad</p>
-    <div class="map">
-        <p>Location:</p>
-        <iframe src="https://www.google.com/maps/embed/v1/place?q=Empire%20heights%20ahmedabad&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8" allowfullscreen="" loading="lazy"></iframe>
+<!-- COMPANY -->
+<section id="company">
+  <div class="container">
+    <div class="card">
+      <h2>Company Information</h2>
+      <p><strong>GST No:</strong> 24APAPP5187Q1Z8</p>
+      <p><strong>Address:</strong> B/404, Empire Heights, Mangleshwar Mahadev Road, Ghodasar, Ahmedabad</p>
+
+      <div class="map">
+        <iframe src="https://www.google.com/maps/embed/v1/place?q=Empire%20heights%20ahmedabad&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+      </div>
     </div>
-    <div class="scroll-indicator">
-        <span>Scroll Down</span>
-        <div class="arrow"></div>
-    </div>
+  </div>
 </section>
 
-<!-- CONTACT PAGE -->
-<section class="contact-page page" id="contact">
-    <h2>Contact Us</h2>
-    <p>Reach us via WhatsApp, Call, Email, or SMS.</p>
-    <div class="button-container-contact">
+<!-- CONTACT -->
+<section id="contact">
+  <div class="container">
+    <div class="card">
+      <h2>Contact Us</h2>
+      <p>Reach us via WhatsApp, Call, Email or SMS.</p>
+
+      <div class="contact-buttons">
         <button class="whatsapp-btn" onclick="openWhatsApp()">💬 WhatsApp</button>
         <a href="tel:+919723453294" class="call-btn">📞 Call</a>
         <a href="mailto:khushienterprise51124@gmail.com" class="email-btn">✉️ Email</a>
         <button class="sms-btn" onclick="openSMS()">📩 SMS</button>
-    </div>
-    <div class="scanner-frame">
-        <p class="qr-heading">Scan QR Code to Pay</p>
+      </div>
 
-        <img src="images/QR code.jpeg" alt="QR Code" class="qr-code">
+      <div class="qr-box">
+        <p><strong>Scan QR to Pay</strong></p>
+        <img src="images/QR code.jpeg" alt="QR Code">
+      </div>
     </div>
-   
+  </div>
 </section>
 
 <!-- FOOTER -->
 <footer>
-   Khushi Enterprise
+  © 2026 Khushi Enterprise
 </footer>
 
-<!-- FLOATING WHATSAPP -->
-<a href="https://wa.me/919723453294" target="_blank" class="floating-whatsapp">💬</a>
+<a href="https://wa.me/919723453294" class="floating-whatsapp">💬</a>
 
 </body>
 </html>
